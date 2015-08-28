@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="POEngine.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="PaletteTranslator.cpp" />
+    <ClCompile Include="POEngineSettings.cpp" />
+    <ClCompile Include="POWorkerThread.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="POEngine.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="PaletteTranslator.h" />
+    <ClInclude Include="POEngineSettings.h" />
+    <ClInclude Include="POWorkerThread.h" />
+    <ClInclude Include="poeng.h" />
+  </ItemGroup>
+</Project>

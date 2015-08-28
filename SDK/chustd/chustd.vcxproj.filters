@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{65e488e8-8d8a-4be6-9a61-68194c5e327b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Array.cpp" />
+    <ClCompile Include="BitBuffer.cpp" />
+    <ClCompile Include="Bmp.cpp" />
+    <ClCompile Include="ChunkedFile.cpp" />
+    <ClCompile Include="chustd.cpp" />
+    <ClCompile Include="Console.cpp" />
+    <ClCompile Include="CppExtensionCrtFriendly.cpp" />
+    <ClCompile Include="CriticalSection.cpp" />
+    <ClCompile Include="Directory.cpp" />
+    <ClCompile Include="DynamicMemoryFile.cpp" />
+    <ClCompile Include="Event0.cpp" />
+    <ClCompile Include="File.cpp" />
+    <ClCompile Include="FixArray.cpp" />
+    <ClCompile Include="FormatType.cpp" />
+    <ClCompile Include="Gif.cpp" />
+    <ClCompile Include="IFile.cpp" />
+    <ClCompile Include="ImageLoader.cpp" />
+    <ClCompile Include="Jpeg.cpp" />
+    <ClCompile Include="Math.cpp" />
+    <ClCompile Include="MemIniFile.cpp" />
+    <ClCompile Include="Memory.cpp" />
+    <ClCompile Include="Process.cpp" />
+    <ClCompile Include="PtrArray.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="ScanType.cpp" />
+    <ClCompile Include="Sort.cpp" />
+    <ClCompile Include="String.cpp" />
+    <ClCompile Include="StringBuilder.cpp" />
+    <ClCompile Include="StringData.cpp" />
+    <ClCompile Include="System.cpp" />
+    <ClCompile Include="TextEncoding.cpp" />
+    <ClCompile Include="Tga.cpp" />
+    <ClCompile Include="TimeStamp.cpp" />
+    <ClCompile Include="UnicodeCaseMapping.cpp" />
+    <ClCompile Include="XmlDocument.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="DateTime.cpp" />
+    <ClCompile Include="Buffer.cpp" />
+    <ClCompile Include="Thread.cpp" />
+    <ClCompile Include="CodePoint.cpp" />
+    <ClCompile Include="FilePath.cpp" />
+    <ClCompile Include="ImageFormat.cpp" />
+    <ClCompile Include="ArgvParser.cpp" />
+    <ClCompile Include="Semaphore.cpp" />
+    <ClCompile Include="PngDumper.cpp" />
+    <ClCompile Include="DeflateCompressor.cpp" />
+    <ClCompile Include="DeflateUncompressor.cpp" />
+    <ClCompile Include="DeflateStream.cpp" />
+    <ClCompile Include="zlib\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\compress.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\deflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\infback.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\trees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\uncompr.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Png.cpp" />
+    <ClCompile Include="StaticMemoryFile.cpp" />
+    <ClCompile Include="Atomic.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Array.h" />
+    <ClInclude Include="BitBuffer.h" />
+    <ClInclude Include="Bmp.h" />
+    <ClInclude Include="ChunkedFile.h" />
+    <ClInclude Include="chustd.h" />
+    <ClInclude Include="ChuTypes.h" />
+    <ClInclude Include="Console.h" />
+    <ClInclude Include="CppExtension.h" />
+    <ClInclude Include="CriticalSection.h" />
+    <ClInclude Include="Directory.h" />
+    <ClInclude Include="DynamicMemoryFile.h" />
+    <ClInclude Include="Event0.h" />
+    <ClInclude Include="Event1.h" />
+    <ClInclude Include="Event2.h" />
+    <ClInclude Include="Event3.h" />
+    <ClInclude Include="Event4.h" />
+    <ClInclude Include="events.h" />
+    <ClInclude Include="EventTemplate.h" />
+    <ClInclude Include="EventTemplateImpl.h" />
+    <ClInclude Include="File.h" />
+    <ClInclude Include="FixArray.h" />
+    <ClInclude Include="FormatType.h" />
+    <ClInclude Include="Gif.h" />
+    <ClInclude Include="IFile.h" />
+    <ClInclude Include="ImageLoader.h" />
+    <ClInclude Include="Jpeg.h" />
+    <ClInclude Include="Math.h" />
+    <ClInclude Include="MemIniFile.h" />
+    <ClInclude Include="Memory.h" />
+    <ClInclude Include="Process.h" />
+    <ClInclude Include="Property.h" />
+    <ClInclude Include="PropertySynchronizer.h" />
+    <ClInclude Include="PtrArray.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="ScanType.h" />
+    <ClInclude Include="Sort.h" />
+    <ClInclude Include="String.h" />
+    <ClInclude Include="StringBuilder.h" />
+    <ClInclude Include="StringData.h" />
+    <ClInclude Include="System.h" />
+    <ClInclude Include="TextEncoding.h" />
+    <ClInclude Include="Tga.h" />
+    <ClInclude Include="TimeStamp.h" />
+    <ClInclude Include="UnicodeCaseMapping.h" />
+    <ClInclude Include="XmlDocument.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="DateTime.h" />
+    <ClInclude Include="Buffer.h" />
+    <ClInclude Include="Thread.h" />
+    <ClInclude Include="CodePoint.h" />
+    <ClInclude Include="FilePath.h" />
+    <ClInclude Include="ImageFormat.h" />
+    <ClInclude Include="ArgvParser.h" />
+    <ClInclude Include="Semaphore.h" />
+    <ClInclude Include="PngDumper.h" />
+    <ClInclude Include="DeflateUncompressor.h" />
+    <ClInclude Include="DeflateCompressor.h" />
+    <ClInclude Include="DeflateStream.h" />
+    <ClInclude Include="zlib\crc32.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\deflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffast.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffixed.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inftrees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\trees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zutil.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Png.h" />
+    <ClInclude Include="StaticMemoryFile.h" />
+    <ClInclude Include="Atomic.h" />
+  </ItemGroup>
+</Project>
