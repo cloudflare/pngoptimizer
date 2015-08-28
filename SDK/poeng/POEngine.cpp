@@ -1942,7 +1942,15 @@ bool POEngine::OptimizeSingleFile(const String& filePath, const String& displayD
 	{
 		// Not a PNG file
 		oldFilePath = filePath;
-		newFilePath = strDirOnly + FilePath::RemoveExtension(strNameOnly) + ".png";
+		// If had no extension, keep it that way
+		if (strNameOnly == FilePath::RemoveExtension(strNameOnly)) // If had no extension, keep it that way
+		{
+			newFilePath = strDirOnly + strNameOnly;
+		}
+		else
+		{
+			newFilePath = strDirOnly + FilePath::RemoveExtension(strNameOnly) + ".png";
+		}
 	}
 
 	// TMP DEBUG : to compare size before and after, uncomment the line above
@@ -2590,7 +2598,8 @@ bool POEngine::IsFileExtensionSupported(const String& ext, const String& joker)
 		"apng",
 		"gif",
 		"bmp",
-		"tga"
+		"tga",
+		""
 	};
 	bool supported = false;
 	for(int i = 0; i < ARRAY_SIZE(supportedExts); ++i)
